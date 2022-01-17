@@ -6,7 +6,7 @@ module.exports = {
   semi: true, // 句末是否加分号
   vueIndentScriptAndStyle: true,
   singleQuote: false, // 用单引号
-  trailingComma: 'none', // 最后一个对象元素加逗号
+  trailingComma: 'all', // 最后一个对象元素加逗号
   bracketSpacing: true, // 对象，数组加空格
   jsxBracketSameLine: true, // jsx > 是否另起一行
   arrowParens: 'always', // (x) => {} 是否要有小括号
