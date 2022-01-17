@@ -5,10 +5,15 @@ import vue from "@vitejs/plugin-vue";
 export default defineConfig({
   plugins: [vue()],
   resolve: {
-    alias: {
-      "@": "/src",
-      img: "/src/assets/img",
-      styles: "/src/styles",
-    },
+    alias: [
+      {
+        find: "@",
+        replacement: "/src",
+      },
+      {
+        find: "@img",
+        replacement: "/src/assets/img",
+      },
+    ],
   },
 });
