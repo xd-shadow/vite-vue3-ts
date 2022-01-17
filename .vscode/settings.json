@@ -4,6 +4,7 @@
   "volar.tsPlugin": true,
   "volar.tsPluginStatus": false,
   "explorer.openEditors.visible": 0,
+  "editor.detectIndentation": false,
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "diffEditor.ignoreTrimWhitespace": false,
@@ -114,5 +115,6 @@
     "pinia",
     "sider",
     "nprogress"
-  ]
+  ],
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
 }
