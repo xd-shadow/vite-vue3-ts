@@ -4,7 +4,7 @@
 </template>
 
 <script setup lang="ts">
-  import HeaderVue from "@/components/Header.vue";
+  import HeaderVue from "@src/components/Header.vue";
 </script>
 
 <style></style>
